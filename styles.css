@@ -42,6 +42,7 @@ body {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #f9fafc;
 }
 
 h1,
@@ -120,6 +121,7 @@ textarea:not([rows]) {
 table {
   width: 100%;
   border-collapse: collapse;
+  background-color: white;
 }
 
 th,
@@ -135,8 +137,12 @@ tr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.176);
   transition: background-color 250ms ease-in-out;
 }
+
+tr:last-child {
+  border-bottom: none;
+}
 tr:hover:not(.table-header) {
-  background-color: hsla(304, 100%, 97%, 1);
+  background-color: #fff5fe;
 }
 
 .info {
@@ -156,6 +162,7 @@ tr:hover:not(.table-header) {
 }
 .header__download {
   text-align: right;
+  opacity: 0;
 }
 
 .btn__download {

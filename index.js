@@ -91,7 +91,7 @@ const paintTableData = (data) => {
         <td>${el.workspace_id}</td>
         <td>${el.plan_name}</td>
         <td>${el.date}</td>
-        <td class="align-right" >${el.amount}</td>
+        <td class="align-right" >${el.amount} USD</td>
         <td></td>
       </tr>`;
     } else {
@@ -101,7 +101,7 @@ const paintTableData = (data) => {
         <td>${el.workspace_id}</td>
         <td>${el.plan_name}</td>
         <td>${el.date}</td>
-        <td class="align-right" >${el.amount}</td>
+        <td class="align-right" >${el.amount} USD</td>
         <td>
           <a href=${el.pdf_url} download class="btn__download"
               ><svg
