@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Invoices</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://chatby.io/images/favicon-app.svg"
+    />
   </head>
   <body>
     <div class="container" id="container">
       <div class="info">
         <div>
-          <h1>Invoices</h1>
-          <p>Your company issued invoices</p>
+          <h1>Facturas</h1>
+          <p>Emitidas desde Perú</p>
         </div>
         <div class="user-data">
           <p id="workspaceName"></p>
@@ -21,12 +33,12 @@
 
       <table id="invoice-table">
         <tr class="table-header">
-          <th>invoice id</th>
-          <th>workspace id</th>
-          <th>workspace name</th>
-          <th>date</th>
-          <th>amount</th>
-          <th class="header__download">Hello</th>
+          <th>Invoice</th>
+          <th>WID</th>
+          <th>Plan Name</th>
+          <th>Date</th>
+          <th class="align-right">Amount (USD)</th>
+          <th class="header__download">Descargar</th>
         </tr>
       </table>
     </div>
